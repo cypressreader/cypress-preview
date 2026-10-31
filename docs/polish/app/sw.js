@@ -1,5 +1,5 @@
 /* CyPress web app: keeps the app itself available offline. Feeds are never cached here. */
-const V = 'cyp-preview-65086ca';
+const V = 'cyp-preview-74fb0ef';
 const FILES = ['./', 'index.html', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png', 'icon-maskable-512.png', 'icon-mono-512.png'];
 /* one missing icon must not stop the offline copy from installing */
 self.addEventListener('install', e => { e.waitUntil(caches.open(V).then(c => Promise.all(FILES.map(f => c.add(f).catch(() => {})))).then(() => self.skipWaiting())); });
