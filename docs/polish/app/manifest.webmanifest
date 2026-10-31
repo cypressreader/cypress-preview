@@ -1,7 +1,7 @@
 {
   "name": "CyPress Preview",
   "short_name": "CyPress Preview",
-  "description": "PREVIEW build (claude/polish-review @ c2f0c62). Not the real app.",
+  "description": "PREVIEW build (claude/polish-review @ 4bd1d3e). Not the real app.",
   "lang": "en-US",
   "categories": [
     "news"
