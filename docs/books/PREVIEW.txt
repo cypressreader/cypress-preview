@@ -1,1 +1,1 @@
-Side preview "books" of claude/book-prototype @ b094ac8 (2026-11-07 03:07 UTC)
+Side preview "books" of claude/book-prototype @ 3884797 (2026-11-07 03:17 UTC)
